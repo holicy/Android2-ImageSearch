@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference android:title="Image Size"
+        android:summary="%s"
+        android:key="imageSize"
+        android:entries="@array/imageSizes"
+        android:entryValues="@array/imageSizeValues" />
+
+    <ListPreference android:title="Image Type"
+        android:summary="%s"
+        android:key="imageType"
+        android:entries="@array/imageTypes"
+        android:entryValues="@array/imageTypeValues" />
+
+    <ListPreference android:title="Image Color"
+        android:summary="%s"
+        android:key="imageColor"
+        android:entries="@array/colors"
+        android:entryValues="@array/colorValues" />
+
+    <ListPreference android:title="Site Filter"
+        android:summary="%s"
+        android:key="siteFilter"
+        android:entries="@array/sites"
+        android:entryValues="@array/siteValues" />
+
+</PreferenceScreen>
